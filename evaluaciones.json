@@ -1,0 +1,16 @@
+{
+  "_id": "eva001",
+  "cursoId": "cur001",
+  "titulo": "Evaluación Final",
+  "preguntas": [
+    {
+      "enunciado": "¿Qué es MongoDB?",
+      "opciones": [
+        "SQL",
+        "NoSQL",
+        "Sistema Operativo"
+      ],
+      "respuestaCorrecta": "NoSQL"
+    }
+  ]
+}

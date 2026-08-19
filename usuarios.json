@@ -1,0 +1,7 @@
+{
+  "_id": "usr001",
+  "nombre": "Juan Pérez",
+  "email": "juan@email.com",
+  "rol": "estudiante",
+  "fechaRegistro": "2026-08-18"
+}

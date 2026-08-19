@@ -1,0 +1,22 @@
+{
+  "_id": "cur001",
+  "titulo": "MongoDB para Principiantes",
+  "descripcion": "Curso introductorio",
+  "categoria": "Bases de Datos",
+  "instructorId": "usr010",
+  "modulos": [
+    {
+      "titulo": "Introducción",
+      "lecciones": [
+        {
+          "titulo": "¿Qué es MongoDB?",
+          "duracionMin": 20
+        },
+        {
+          "titulo": "Instalación",
+          "duracionMin": 30
+        }
+      ]
+    }
+  ]
+}

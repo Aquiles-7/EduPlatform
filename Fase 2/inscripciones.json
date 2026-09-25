@@ -1,0 +1,14 @@
+[
+  { "_id": "ins001", "estudianteId": "usr001", "cursoId": "cur001", "fechaInscripcion": "2026-08-18", "progreso": 65 },
+  { "_id": "ins002", "estudianteId": "usr002", "cursoId": "cur001", "fechaInscripcion": "2026-08-19", "progreso": 100, "certificadoObtenido": true, "fechaFinalizacion": "2026-09-10" },
+  { "_id": "ins003", "estudianteId": "usr003", "cursoId": "cur002", "fechaInscripcion": "2026-08-20", "progreso": 40 },
+  { "_id": "ins004", "estudianteId": "usr004", "cursoId": "cur003", "fechaInscripcion": "2026-08-20", "progreso": 100, "certificadoObtenido": true, "fechaFinalizacion": "2026-09-05" },
+  { "_id": "ins005", "estudianteId": "usr005", "cursoId": "cur004", "fechaInscripcion": "2026-08-21", "progreso": 15 },
+  { "_id": "ins006", "estudianteId": "usr006", "cursoId": "cur004", "fechaInscripcion": "2026-08-22", "progreso": 80, "notasInstructor": "Muy buen desempeño en las tareas prácticas" },
+  { "_id": "ins007", "estudianteId": "usr007", "cursoId": "cur005", "fechaInscripcion": "2026-08-22", "progreso": 100, "certificadoObtenido": false },
+  { "_id": "ins008", "estudianteId": "usr008", "cursoId": "cur006", "fechaInscripcion": "2026-08-23", "progreso": 55 },
+  { "_id": "ins009", "estudianteId": "usr009", "cursoId": "cur007", "fechaInscripcion": "2026-08-24", "progreso": 10 },
+  { "_id": "ins010", "estudianteId": "usr001", "cursoId": "cur008", "fechaInscripcion": "2026-08-25", "progreso": 30 },
+  { "_id": "ins011", "estudianteId": "usr003", "cursoId": "cur009", "fechaInscripcion": "2026-08-26", "progreso": 90 },
+  { "_id": "ins012", "estudianteId": "usr005", "cursoId": "cur010", "fechaInscripcion": "2026-08-27", "progreso": 5 }
+]

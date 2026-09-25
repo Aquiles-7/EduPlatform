@@ -246,27 +246,80 @@ Beneficios:
 * Consultas más eficientes.
 * Menor crecimiento de documentos principales.
 
----
+## Pruebas de Consultas (MQL)
 
-# Consultas Esperadas
+> Los scripts completos están en `/scripts/consultas.js`. Los archivos de datos de sembrado están en `/scripts/*.json`.
 
-La estructura fue diseñada considerando las consultas más frecuentes de la aplicación:
+### Lecturas
 
-* Obtener un curso completo junto con sus módulos y lecciones.
-* Listar todos los cursos disponibles.
-* Consultar los cursos dictados por un instructor.
-* Inscribir un estudiante en un curso.
-* Consultar el progreso de un estudiante.
-* Obtener una evaluación completa con todas sus preguntas.
-* Consultar los resultados obtenidos por un estudiante.
-* Obtener estadísticas de desempeño por curso.
+**1. Filtrado exacto — cursos por categoría**
+```js
+db.cursos.find({ categoria: "Bases de Datos" });
+```
+Resuelve: mostrar el catálogo de cursos filtrado por categoría en la página principal.
 
----
+![Filtrado exacto — cursos por categoría](EduPlatform/assets/images/1. Filtrado exacto — cursos por categoría.png)
 
-# Tecnologías Previstas
+**2. Comparación — estudiantes aprobados**
+```js
+db.resultados.find({ puntaje: { $gte: 70 } });
+```
+Resuelve: identificar a los estudiantes que aprobaron una evaluación para emitir su constancia.
 
-* MongoDB
-* MongoDB Compass
-* Git
-* GitHub
+![Comparación — estudiantes aprobados](EduPlatform/assets/images/2. Comparación — estudiantes aprobados.png)
 
+**3. Dot notation — búsqueda en lecciones anidadas**
+```js
+db.cursos.find({ "modulos.lecciones.titulo": "Instalación" });
+```
+Resuelve: alimentar el buscador interno de contenidos por título de lección.
+
+![Dot notation — búsqueda en lecciones anidadas](EduPlatform/assets/images/3. Dot notation — búsqueda en lecciones anidadas.png)
+
+**4. Proyección — listado liviano de usuarios**
+```js
+db.usuarios.find({ rol: "estudiante" }, { _id: 0, nombre: 1, email: 1 });
+```
+Resuelve: exportar nombre y email de estudiantes para una campaña de correo, sin exponer el `_id`.
+
+![Proyección — listado liviano de usuarios](EduPlatform/assets/images/4. Proyección — listado liviano de usuarios.png)
+
+**5. Filtrado de arreglo con `$elemMatch`**
+```js
+db.evaluaciones.find({ preguntas: { $elemMatch: { respuestaCorrecta: "NoSQL" } } });
+```
+Resuelve: auditar el banco de preguntas para encontrar evaluaciones con una respuesta correcta específica.
+
+![Filtrado de arreglo con $elemMatch](EduPlatform/assets/images/5. Filtrado de arreglo con $elemMatch.png)
+
+### Actualizaciones y eliminación
+
+**1. `$set` — actualizar y añadir propiedad**
+```js
+db.cursos.updateOne(
+  { _id: "cur001" },
+  { $set: { descripcion: "Curso introductorio a MongoDB, actualizado con ejemplos prácticos", certificadoDisponible: true } }
+);
+```
+Resuelve: el instructor mantiene actualizada la descripción del curso y habilita el certificado.
+
+![$set — actualizar y añadir propiedad](EduPlatform/assets/images/6. $set — actualizar y añadir propiedad.png)
+
+**2. `$inc` — incrementar contador**
+```js
+db.Inscripciones.updateOne(
+  { estudianteId: "usr001", cursoId: "cur001" },
+  { $inc: { progreso: 10 } }
+);
+```
+Resuelve: reflejar el avance de un estudiante en su curso de forma atómica.
+
+![$inc — incrementar contador](EduPlatform/assets/images/7. $inc — incrementar contador.png)
+
+**3. `deleteOne` — eliminación segura**
+```js
+db.resultados.deleteOne({ evaluacionId: "eva999", puntaje: 0 });
+```
+Resuelve: depurar registros de prueba bajo un criterio estricto que no afecta datos reales.
+
+![deleteOne — eliminación segura](EduPlatform/assets/images/3. deleteOne — eliminación segura.png)

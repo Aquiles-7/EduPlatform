@@ -1,0 +1,89 @@
+[
+  {
+    "_id": "eva001",
+    "cursoId": "cur001",
+    "titulo": "Evaluación Final",
+    "preguntas": [
+      { "enunciado": "¿Qué es MongoDB?", "opciones": ["SQL", "NoSQL", "Sistema Operativo"], "respuestaCorrecta": "NoSQL" }
+    ]
+  },
+  {
+    "_id": "eva002",
+    "cursoId": "cur002",
+    "titulo": "Evaluación de Modelado",
+    "tiempoLimiteMin": 30,
+    "preguntas": [
+      { "enunciado": "¿Qué patrón se usa para datos de crecimiento no acotado?", "opciones": ["Bucket", "Embedding", "Polimórfico"], "respuestaCorrecta": "Bucket" },
+      { "enunciado": "¿Qué ventaja tiene el embedding?", "opciones": ["Menos consultas", "Más espacio", "Menos índices"], "respuestaCorrecta": "Menos consultas" },
+      { "enunciado": "¿Qué operador crea un índice compuesto?", "opciones": ["createIndex", "aggregate", "find"], "respuestaCorrecta": "createIndex" }
+    ]
+  },
+  {
+    "_id": "eva003",
+    "cursoId": "cur003",
+    "titulo": "Evaluación de JavaScript Básico",
+    "preguntas": [
+      { "enunciado": "¿Cuál palabra clave declara una variable no reasignable?", "opciones": ["var", "let", "const"], "respuestaCorrecta": "const" },
+      { "enunciado": "¿Qué tipo de dato retorna typeof null?", "opciones": ["null", "object", "undefined"], "respuestaCorrecta": "object" }
+    ]
+  },
+  {
+    "_id": "eva004",
+    "cursoId": "cur004",
+    "titulo": "Evaluación de Node.js y Express",
+    "preguntas": [
+      { "enunciado": "¿Qué método HTTP se usa para crear un recurso?", "opciones": ["GET", "POST", "DELETE"], "respuestaCorrecta": "POST", "imagenUrl": "https://example.com/img/http-methods.png" },
+      { "enunciado": "¿Qué librería facilita el modelado con MongoDB en Node?", "opciones": ["Express", "Mongoose", "Axios"], "respuestaCorrecta": "Mongoose" }
+    ]
+  },
+  {
+    "_id": "eva005",
+    "cursoId": "cur005",
+    "titulo": "Evaluación de Diseño UX/UI",
+    "preguntas": [
+      { "enunciado": "¿Qué principio ordena elementos por importancia visual?", "opciones": ["Contraste", "Jerarquía", "Alineación"], "respuestaCorrecta": "Jerarquía" }
+    ]
+  },
+  {
+    "_id": "eva006",
+    "cursoId": "cur006",
+    "titulo": "Evaluación de Administración en Atlas",
+    "preguntas": [
+      { "enunciado": "¿Dónde se gestionan los usuarios de la base de datos en Atlas?", "opciones": ["Database Access", "Network Access", "Billing"], "respuestaCorrecta": "Database Access" },
+      { "enunciado": "¿Qué se configura en Network Access?", "opciones": ["Roles", "Direcciones IP permitidas", "Facturación"], "respuestaCorrecta": "Direcciones IP permitidas" }
+    ]
+  },
+  {
+    "_id": "eva007",
+    "cursoId": "cur007",
+    "titulo": "Evaluación de Python para Datos",
+    "preguntas": [
+      { "enunciado": "¿Qué estructura representa una tabla en Pandas?", "opciones": ["Series", "DataFrame", "Array"], "respuestaCorrecta": "DataFrame" }
+    ]
+  },
+  {
+    "_id": "eva008",
+    "cursoId": "cur008",
+    "titulo": "Evaluación de Ciberseguridad",
+    "preguntas": [
+      { "enunciado": "¿Qué es el phishing?", "opciones": ["Un virus", "Un ataque de ingeniería social", "Un firewall"], "respuestaCorrecta": "Un ataque de ingeniería social" },
+      { "enunciado": "¿Qué práctica reduce el riesgo de intrusión?", "opciones": ["Reutilizar contraseñas", "Autenticación de dos factores", "Desactivar el firewall"], "respuestaCorrecta": "Autenticación de dos factores" }
+    ]
+  },
+  {
+    "_id": "eva009",
+    "cursoId": "cur009",
+    "titulo": "Evaluación de Angular",
+    "preguntas": [
+      { "enunciado": "¿Qué decorador define un componente?", "opciones": ["@Injectable", "@Component", "@NgModule"], "respuestaCorrecta": "@Component" }
+    ]
+  },
+  {
+    "_id": "eva010",
+    "cursoId": "cur010",
+    "titulo": "Evaluación de Introducción a IA",
+    "preguntas": [
+      { "enunciado": "¿Qué tipo de aprendizaje usa datos etiquetados?", "opciones": ["Supervisado", "No supervisado", "Por refuerzo"], "respuestaCorrecta": "Supervisado" }
+    ]
+  }
+]

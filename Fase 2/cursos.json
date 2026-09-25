@@ -1,0 +1,191 @@
+[
+  {
+    "_id": "cur001",
+    "titulo": "MongoDB para Principiantes",
+    "descripcion": "Curso introductorio",
+    "categoria": "Bases de Datos",
+    "instructorId": "usr010",
+    "etiquetas": ["nosql", "mongodb", "principiante"],
+    "modulos": [
+      {
+        "titulo": "Introducción",
+        "lecciones": [
+          { "titulo": "¿Qué es MongoDB?", "duracionMin": 20 },
+          { "titulo": "Instalación", "duracionMin": 30 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur002",
+    "titulo": "Modelado de Datos Avanzado en MongoDB",
+    "descripcion": "Patrones de diseño de esquemas",
+    "categoria": "Bases de Datos",
+    "instructorId": "usr010",
+    "etiquetas": ["nosql", "mongodb", "avanzado", "modelado"],
+    "certificadoDisponible": true,
+    "modulos": [
+      {
+        "titulo": "Patrones de esquema",
+        "lecciones": [
+          { "titulo": "Embedding vs Referencing", "duracionMin": 35 },
+          { "titulo": "Patrón Bucket", "duracionMin": 25 },
+          { "titulo": "Patrón Polimórfico", "duracionMin": 28 }
+        ]
+      },
+      {
+        "titulo": "Índices",
+        "lecciones": [
+          { "titulo": "Índices compuestos", "duracionMin": 22 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur003",
+    "titulo": "JavaScript desde Cero",
+    "descripcion": "Fundamentos del lenguaje JavaScript",
+    "categoria": "Programación",
+    "instructorId": "usr011",
+    "etiquetas": ["javascript", "frontend", "principiante"],
+    "modulos": [
+      {
+        "titulo": "Sintaxis básica",
+        "lecciones": [
+          { "titulo": "Variables y tipos", "duracionMin": 18 },
+          { "titulo": "Funciones", "duracionMin": 24 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur004",
+    "titulo": "Node.js y Express",
+    "descripcion": "Construcción de APIs REST",
+    "categoria": "Programación",
+    "instructorId": "usr011",
+    "etiquetas": ["nodejs", "backend", "api"],
+    "certificadoDisponible": true,
+    "modulos": [
+      {
+        "titulo": "Fundamentos de Express",
+        "lecciones": [
+          { "titulo": "Rutas y middlewares", "duracionMin": 32 },
+          { "titulo": "Manejo de errores", "duracionMin": 20 }
+        ]
+      },
+      {
+        "titulo": "Conexión con bases de datos",
+        "lecciones": [
+          { "titulo": "Mongoose básico", "duracionMin": 27 },
+          { "titulo": "Validaciones", "duracionMin": 19 },
+          { "titulo": "Relaciones entre colecciones", "duracionMin": 21 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur005",
+    "titulo": "Diseño UX/UI para Desarrolladores",
+    "descripcion": "Principios de diseño centrado en el usuario",
+    "categoria": "Diseño",
+    "instructorId": "usr010",
+    "etiquetas": ["ux", "ui", "diseño"],
+    "modulos": [
+      {
+        "titulo": "Principios de diseño",
+        "lecciones": [
+          { "titulo": "Jerarquía visual", "duracionMin": 15 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur006",
+    "titulo": "Administración de MongoDB Atlas",
+    "descripcion": "Despliegue y monitoreo en la nube",
+    "categoria": "Bases de Datos",
+    "instructorId": "usr010",
+    "etiquetas": ["nosql", "mongodb", "cloud", "administracion"],
+    "requisitos": ["MongoDB para Principiantes", "Conocimientos básicos de redes"],
+    "modulos": [
+      {
+        "titulo": "Configuración inicial",
+        "lecciones": [
+          { "titulo": "Creación de clúster", "duracionMin": 18 },
+          { "titulo": "Usuarios y roles", "duracionMin": 22 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur007",
+    "titulo": "Python para Análisis de Datos",
+    "descripcion": "Pandas, NumPy y visualización",
+    "categoria": "Ciencia de Datos",
+    "instructorId": "usr011",
+    "etiquetas": ["python", "datos", "pandas"],
+    "certificadoDisponible": true,
+    "modulos": [
+      {
+        "titulo": "Manipulación de datos",
+        "lecciones": [
+          { "titulo": "Series y DataFrames", "duracionMin": 30 },
+          { "titulo": "Limpieza de datos", "duracionMin": 26 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur008",
+    "titulo": "Fundamentos de Ciberseguridad",
+    "descripcion": "Conceptos esenciales de seguridad informática",
+    "categoria": "Seguridad",
+    "instructorId": "usr011",
+    "etiquetas": ["seguridad", "redes", "principiante"],
+    "modulos": [
+      {
+        "titulo": "Introducción a la seguridad",
+        "lecciones": [
+          { "titulo": "Tipos de amenazas", "duracionMin": 20 },
+          { "titulo": "Buenas prácticas", "duracionMin": 15 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur009",
+    "titulo": "Angular desde Cero",
+    "descripcion": "Construcción de aplicaciones SPA con Angular",
+    "categoria": "Programación",
+    "instructorId": "usr011",
+    "etiquetas": ["angular", "frontend", "spa"],
+    "certificadoDisponible": true,
+    "modulos": [
+      {
+        "titulo": "Componentes y servicios",
+        "lecciones": [
+          { "titulo": "Estructura de un componente", "duracionMin": 25 },
+          { "titulo": "Inyección de dependencias", "duracionMin": 23 }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "cur010",
+    "titulo": "Introducción a la Inteligencia Artificial",
+    "descripcion": "Conceptos básicos de IA y machine learning",
+    "categoria": "Ciencia de Datos",
+    "instructorId": "usr010",
+    "etiquetas": ["ia", "machine-learning", "principiante"],
+    "modulos": [
+      {
+        "titulo": "Conceptos fundamentales",
+        "lecciones": [
+          { "titulo": "¿Qué es la IA?", "duracionMin": 20 },
+          { "titulo": "Tipos de aprendizaje", "duracionMin": 25 }
+        ]
+      }
+    ]
+  }
+]

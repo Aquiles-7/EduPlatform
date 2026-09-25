@@ -1,0 +1,14 @@
+[
+  { "_id": "usr001", "nombre": "Juan Pérez", "email": "juan@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-18" },
+  { "_id": "usr002", "nombre": "María Gómez", "email": "maria.gomez@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-19" },
+  { "_id": "usr003", "nombre": "Carlos Fernández", "email": "carlos.fernandez@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-20", "telefono": "+54 261 555 0101" },
+  { "_id": "usr004", "nombre": "Lucía Martínez", "email": "lucia.martinez@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-20" },
+  { "_id": "usr005", "nombre": "Diego Sosa", "email": "diego.sosa@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-21" },
+  { "_id": "usr006", "nombre": "Valentina Ríos", "email": "valentina.rios@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-22", "direccion": { "ciudad": "Mendoza", "pais": "Argentina" } },
+  { "_id": "usr007", "nombre": "Martín Álvarez", "email": "martin.alvarez@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-22" },
+  { "_id": "usr008", "nombre": "Sofía Torres", "email": "sofia.torres@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-23", "telefono": "+54 261 555 0102" },
+  { "_id": "usr009", "nombre": "Nicolás Herrera", "email": "nicolas.herrera@email.com", "rol": "estudiante", "fechaRegistro": "2026-08-24" },
+  { "_id": "usr010", "nombre": "Patricia Núñez", "email": "patricia.nunez@email.com", "rol": "instructor", "fechaRegistro": "2026-07-01", "especialidad": "Bases de Datos NoSQL" },
+  { "_id": "usr011", "nombre": "Roberto Díaz", "email": "roberto.diaz@email.com", "rol": "instructor", "fechaRegistro": "2026-07-02", "especialidad": "Desarrollo Backend" },
+  { "_id": "usr012", "nombre": "Camila Vega", "email": "camila.vega@email.com", "rol": "admin", "fechaRegistro": "2026-06-15" }
+]

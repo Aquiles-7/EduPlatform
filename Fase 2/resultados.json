@@ -1,0 +1,12 @@
+[
+  { "_id": "res001", "evaluacionId": "eva001", "estudianteId": "usr001", "puntaje": 90, "fecha": "2026-08-20" },
+  { "_id": "res002", "evaluacionId": "eva001", "estudianteId": "usr002", "puntaje": 100, "fecha": "2026-08-21", "aprobado": true },
+  { "_id": "res003", "evaluacionId": "eva002", "estudianteId": "usr003", "puntaje": 45, "fecha": "2026-08-22", "intentos": 2, "retroalimentacion": "Repasar los patrones de diseño de esquema antes de reintentar" },
+  { "_id": "res004", "evaluacionId": "eva003", "estudianteId": "usr004", "puntaje": 85, "fecha": "2026-08-23" },
+  { "_id": "res005", "evaluacionId": "eva004", "estudianteId": "usr005", "puntaje": 30, "fecha": "2026-08-24", "intentos": 1 },
+  { "_id": "res006", "evaluacionId": "eva004", "estudianteId": "usr006", "puntaje": 78, "fecha": "2026-08-25" },
+  { "_id": "res007", "evaluacionId": "eva005", "estudianteId": "usr007", "puntaje": 95, "fecha": "2026-08-26" },
+  { "_id": "res008", "evaluacionId": "eva006", "estudianteId": "usr008", "puntaje": 60, "fecha": "2026-08-27" },
+  { "_id": "res009", "evaluacionId": "eva008", "estudianteId": "usr009", "puntaje": 40, "fecha": "2026-08-28", "intentos": 3 },
+  { "_id": "res010", "evaluacionId": "eva009", "estudianteId": "usr001", "puntaje": 88, "fecha": "2026-08-29" }
+]
